@@ -4,12 +4,30 @@ import com.gxf.mybatis.mapper.PersonMapper;
 import com.gxf.mybatis.mapper.PersonMapper1;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class PersonTableOps {
     private static SqlSessionFactory sqlSessionFactory = SqlSessionFactoryHelper.getSqlSessionFactory();
+    private static PersonMapper personMapper;
 
     public static void main(String[] args) {
-//        selectOne1();
+        testSpringMybatis();
+    }
+
+
+    private static void testSpringMybatis(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+        personMapper = (PersonMapper) applicationContext.getBean("personMapper");
+        Person person = personMapper.selectPerson(1);
+        System.out.println(person);
+    }
+
+    /**
+     * test mybatis select method
+     * */
+    private static void testSelectOnes(){
+        //        selectOne1();
 //        selectOne2();
         selectOne3();
     }
@@ -56,5 +74,21 @@ public class PersonTableOps {
         } finally {
             session.close();
         }
+    }
+
+    public static SqlSessionFactory getSqlSessionFactory() {
+        return sqlSessionFactory;
+    }
+
+    public static void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
+        PersonTableOps.sqlSessionFactory = sqlSessionFactory;
+    }
+
+    public PersonMapper getPersonMapper() {
+        return personMapper;
+    }
+
+    public void setPersonMapper(PersonMapper personMapper) {
+        this.personMapper = personMapper;
     }
 }
