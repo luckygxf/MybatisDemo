@@ -12,7 +12,10 @@ public class PersonTableOps {
     private static PersonMapper personMapper;
 
     public static void main(String[] args) {
-        testSpringMybatis();
+//        testSpringMybatis();
+        testSelectOnes();
+//        insertPerson();
+
     }
 
 
@@ -72,6 +75,27 @@ public class PersonTableOps {
             Person person = mapper.selectPerson(1);
             System.out.println(person);
         } finally {
+            session.close();
+        }
+    }
+
+    /**
+     * 向数据库插入数据
+     * */
+    public static void insertPerson(){
+        Person person = new Person();
+        person.setId(2);
+        person.setAge(28);
+        person.setName("guanxiangfei");
+        person.setHomeAddress("beijing_chaoyang");
+        SqlSession session = sqlSessionFactory.openSession();
+        try {
+            sqlSessionFactory.getConfiguration().addMapper(PersonMapper1.class);
+            PersonMapper1 mapper = session.getMapper(PersonMapper1.class);
+            mapper.save(person);
+            System.out.println(person);
+        } finally {
+            session.commit();
             session.close();
         }
     }

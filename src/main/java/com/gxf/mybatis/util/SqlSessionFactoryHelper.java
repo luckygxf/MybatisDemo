@@ -14,6 +14,7 @@ public class SqlSessionFactoryHelper {
             String resource = "mybatis-config.xml";
             InputStream inputStream = Resources.getResourceAsStream(resource);
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+            sqlSessionFactory.getConfiguration().setMapUnderscoreToCamelCase(true);
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -1,12 +1,17 @@
-package com.gxf.mybatis.util;
+package com.gxf.mybatis.beans;
 
 import com.alibaba.fastjson.JSON;
 
-public class Person {
+/**
+ * @Author: <guanxiangfei@meituan.com>
+ * @Description:
+ * @Date: Created in : 2018/10/12 下午9:15
+ **/
+public class Student {
+
     private int id;
     private String name;
     private int age;
-    private String homeAddress;
 
     public int getId() {
         return id;
@@ -30,14 +35,6 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public String getHomeAddress() {
-        return homeAddress;
-    }
-
-    public void setHomeAddress(String homeAddress) {
-        this.homeAddress = homeAddress;
     }
 
     @Override
