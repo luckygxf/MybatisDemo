@@ -13,7 +13,7 @@ public class PersonTableOps {
 
     public static void main(String[] args) {
 //        testSpringMybatis();
-        testSelectOnes();
+//        testSelectOnes();
 //        insertPerson();
 
     }

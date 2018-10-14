@@ -1,6 +1,7 @@
 package com.gxf.mybatis.mapper;
 
 import com.gxf.mybatis.beans.Student;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @Author: guanxianseng@163.com
@@ -18,4 +19,9 @@ public interface StudentMapper {
      * 添加student
      * */
     int addStudent(Student student);
+
+    /**
+     * 根据id更新name字段
+     * */
+    int updateStudentName(@Param("name") String name, @Param("id") int id);
 }
