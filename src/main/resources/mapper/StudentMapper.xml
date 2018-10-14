@@ -2,6 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
 <mapper namespace="com.gxf.mybatis.mapper.StudentMapper">
     <select id="getStudentById" resultType="com.gxf.mybatis.beans.Student">
       select * from student where id = #{id}
@@ -14,4 +16,6 @@
     <update id="updateStudentName" parameterType="com.gxf.mybatis.beans.Student">
         update student set name = #{name} where id = #{id}
     </update>
+
+    <cache></cache>
 </mapper>

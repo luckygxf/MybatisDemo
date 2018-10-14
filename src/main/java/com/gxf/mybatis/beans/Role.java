@@ -7,19 +7,18 @@ import java.io.Serializable;
 /**
  * @Author:
  * @Description:
- * @Date: Created in : 2018/10/12 下午9:15
+ * @Date: Created in : 2018/10/14 下午9:52
  **/
-public class Student implements Serializable {
-
-    private int id;
+public class Role implements Serializable {
+    private String id;
     private String name;
-    private int age;
+    private String userId;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -31,12 +30,12 @@ public class Student implements Serializable {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     @Override

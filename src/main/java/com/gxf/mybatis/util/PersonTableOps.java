@@ -1,21 +1,52 @@
 package com.gxf.mybatis.util;
 
+import com.gxf.mybatis.beans.User;
 import com.gxf.mybatis.mapper.PersonMapper;
 import com.gxf.mybatis.mapper.PersonMapper1;
+import com.gxf.mybatis.mapper.UserMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.List;
 
 public class PersonTableOps {
     private static SqlSessionFactory sqlSessionFactory = SqlSessionFactoryHelper.getSqlSessionFactory();
     private static PersonMapper personMapper;
 
     public static void main(String[] args) {
-//        testSpringMybatis();
-//        testSelectOnes();
-//        insertPerson();
+        queryMutiTablesList();
 
+    }
+
+
+    /**
+     * 多表查询 返回list
+     * */
+    private static void queryMutiTablesList(){
+        SqlSession session = sqlSessionFactory.openSession();
+        try {
+            UserMapper userMapper = session.getMapper(UserMapper.class);
+            List<User> userList = userMapper.queryForList();
+            System.out.println(userList);
+        } finally {
+            session.close();
+        }
+    }
+
+    /**
+     * 多表查询
+     * */
+    private static void queryMultiTables(){
+        SqlSession session = sqlSessionFactory.openSession();
+        try {
+            UserMapper userMapper = session.getMapper(UserMapper.class);
+            User user = userMapper.getById("1");
+            System.out.println(user);
+        } finally {
+            session.close();
+        }
     }
 
 

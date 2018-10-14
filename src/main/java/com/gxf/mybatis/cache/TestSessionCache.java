@@ -7,7 +7,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author:
  * @Description:
  * @Date: Created in : 2018/10/12 下午9:18
  **/
@@ -16,7 +16,46 @@ public class TestSessionCache {
 
     public static void main(String[] args) {
 //        insertExpireData();
-        testLocalCacheScope();
+//        testLocalCacheScope();
+//        testCacheWithoutCommitOrClose();
+        testCacheWithUpdate();
+    }
+
+    /**
+     * 测试二级缓存: 更新数据库，二级缓存是否会失效
+     * */
+    public static void testCacheWithUpdate(){
+        SqlSession sqlSession1 = sqlSessionFactory.openSession(true);
+        SqlSession sqlSession2 = sqlSessionFactory.openSession(true);
+        SqlSession sqlSession3 = sqlSessionFactory.openSession(true);
+
+        StudentMapper studentMapper = sqlSession1.getMapper(StudentMapper.class);
+        StudentMapper studentMapper2 = sqlSession2.getMapper(StudentMapper.class);
+        StudentMapper studentMapper3 = sqlSession3.getMapper(StudentMapper.class);
+
+        System.out.println("studentMapper读取数据: " + studentMapper.getStudentById(1));
+        sqlSession1.commit();
+        System.out.println("studentMapper2读取数据: " + studentMapper2.getStudentById(1));
+
+        studentMapper3.updateStudentName("方方",1);
+        sqlSession3.commit();
+        System.out.println("studentMapper2读取数据: " + studentMapper2.getStudentById(1));
+    }
+
+    /**
+     * 测试二级缓存
+     * */
+    public static void testCacheWithoutCommitOrClose(){
+        SqlSession sqlSession1 = sqlSessionFactory.openSession(true);
+        SqlSession sqlSession2 = sqlSessionFactory.openSession(true);
+
+        StudentMapper studentMapper = sqlSession1.getMapper(StudentMapper.class);
+        StudentMapper studentMapper2 = sqlSession2.getMapper(StudentMapper.class);
+
+        System.out.println("studentMapper读取数据: " + studentMapper.getStudentById(1));
+        sqlSession1.commit();
+        System.out.println("studentMapper2读取数据: " + studentMapper2.getStudentById(1));
+
     }
 
     /**

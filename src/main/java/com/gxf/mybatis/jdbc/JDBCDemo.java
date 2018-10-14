@@ -5,7 +5,7 @@ import org.apache.ibatis.type.JdbcType;
 import java.sql.*;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author:
  * @Description:
  * @Date: Created in : 2018/10/9 下午9:10
  **/

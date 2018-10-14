@@ -6,6 +6,7 @@
     <settings>
         <setting name="localCacheScope" value="STATEMENT"/>
         <setting name="logImpl" value="STDOUT_LOGGING" />
+        <setting name="cacheEnabled" value="true"/>
     </settings>
     <environments default="development">
         <environment id="development">
@@ -21,6 +22,7 @@
     <mappers>
         <mapper resource="mapper/PersonMapper.xml"/>
         <mapper resource="mapper/StudentMapper.xml"/>
+        <mapper resource="mapper/UserMapper.xml"/>
     </mappers>
     
 
