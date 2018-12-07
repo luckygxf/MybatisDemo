@@ -2,6 +2,7 @@ package com.gxf.mybatis.beans;
 
 import com.alibaba.fastjson.JSON;
 
+import com.gxf.mybatis.annotations.GxfBean;
 import java.io.Serializable;
 
 /**
@@ -9,6 +10,7 @@ import java.io.Serializable;
  * @Description:
  * @Date: Created in : 2018/10/14 下午9:52
  **/
+@GxfBean
 public class Role implements Serializable {
     private String id;
     private String name;
