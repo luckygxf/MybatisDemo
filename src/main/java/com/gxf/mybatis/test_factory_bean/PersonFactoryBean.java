@@ -1,4 +1,4 @@
-package com.gxf.mybatis.TestFactoryBean;
+package com.gxf.mybatis.test_factory_bean;
 
 import org.springframework.beans.factory.FactoryBean;
 

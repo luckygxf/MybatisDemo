@@ -1,4 +1,4 @@
-package com.gxf.mybatis.TestFactoryBean;
+package com.gxf.mybatis.test_factory_bean;
 
 /**
  * @Author: <guanxianseng@163.com>

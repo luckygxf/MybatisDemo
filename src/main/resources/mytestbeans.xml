@@ -18,7 +18,7 @@
     <!--<bean id="b" class="com.gxf.mybatis.circle_bean.B">-->
         <!--<constructor-arg ref="a" index="0"/>-->
     <!--</bean>-->
-    <bean id="person" class="com.gxf.mybatis.TestFactoryBean.PersonFactoryBean">
+    <bean id="person" class="com.gxf.mybatis.test_factory_bean.PersonFactoryBean">
         <property name="personInfo">
             <value>guanxianseng,28,chengdu</value>
         </property>

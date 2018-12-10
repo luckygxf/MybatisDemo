@@ -1,6 +1,5 @@
-package com.gxf.mybatis.TestFactoryBean;
+package com.gxf.mybatis.test_factory_bean;
 
-import com.gxf.mybatis.ioc.MyTestBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
