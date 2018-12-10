@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7723348-ddd4-4bbf-a6f0-974bc4b9f832" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/HelloIndia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/parentbeans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdk/AssignableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdk/FormatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdk/SecurityManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Spring-cache-anno.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/TestFactoryBean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/test_factory_bean/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/TestFactoryBean/PersonFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/test_factory_bean/PersonFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/TestFactoryBean/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/test_factory_bean/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mytestbeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mytestbeans.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,213 +30,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/AccountService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="868" column="28" selection-start-line="868" selection-start-column="28" selection-end-line="868" selection-end-column="28" />
-              <folding>
-                <element signature="e#10497#10498#0" expanded="true" />
-                <element signature="e#10518#10519#0" expanded="true" />
-                <element signature="e#11331#11332#0" expanded="true" />
-                <element signature="e#11356#11357#0" expanded="true" />
-                <element signature="e#39331#39332#0" expanded="true" />
-                <element signature="e#39374#39375#0" expanded="true" />
-                <element signature="e#39888#39889#0" expanded="true" />
-                <element signature="e#39919#39920#0" expanded="true" />
-                <element signature="e#41838#41839#0" expanded="true" />
-                <element signature="e#41887#41888#0" expanded="true" />
-                <element signature="e#43308#43309#0" expanded="true" />
-                <element signature="e#43363#43364#0" expanded="true" />
-                <element signature="e#45481#45482#0" expanded="true" />
-                <element signature="e#45506#45507#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/ioc/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="128">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassPathXmlApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+      <file leaf-file-name="CacheEvict.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/cache/annotation/CacheEvict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="143" column="11" lean-forward="true" selection-start-line="143" selection-start-column="11" selection-end-line="143" selection-end-column="11" />
-              <folding>
-                <element signature="e#2860#2861#0" expanded="true" />
-                <element signature="e#2880#2881#0" expanded="true" />
-                <element signature="e#8363#8364#0" expanded="true" />
-                <element signature="e#8397#8398#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1391">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigurableListableBeanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
+      <file leaf-file-name="Cacheable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/cache/annotation/Cacheable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="159" column="7" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
+            <state relative-caret-position="192">
+              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultListableBeanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="678" column="24" selection-start-line="678" selection-start-column="24" selection-end-line="678" selection-end-column="24" />
-              <folding>
-                <element signature="e#14191#14192#0" expanded="true" />
-                <element signature="e#14234#14235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="177" column="34" lean-forward="true" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="3207" column="28" selection-start-line="3207" selection-start-column="28" selection-end-line="3207" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractBeanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="1237" column="49" selection-start-line="1237" selection-start-column="49" selection-end-line="1237" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Nullable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/lang/Nullable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RootBeanDefinition.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/RootBeanDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mytestbeans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mytestbeans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parentbeans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/parentbeans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/HelloWorld.java">
+      <file leaf-file-name="Spring-cache-anno.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-cache-anno.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-              </folding>
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloIndia.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/HelloIndia.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="241">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -257,9 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fastjson</find>
-      <find>handleResultSets</find>
-      <find>createResultObject</find>
       <find>mysql</find>
       <find>typeHandler</find>
       <find>File(</find>
@@ -287,6 +122,9 @@
       <find>loadBeanDefinitions</find>
       <find>doLoadBeanDefinitions</find>
       <find>parseCustomElement</find>
+      <find>instanceSupplier</find>
+      <find>instantiationStrategy</find>
+      <find>instantiate</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -300,18 +138,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/ObjectUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/util/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdbc/JDBCDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/mapper/PersonMapper1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/util/SqlSessionFactoryHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/mapper/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/cache/TestSessionCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/util/Generate.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generator.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/beans/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
@@ -342,14 +173,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/circle_bean/A.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/circle_bean/B.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/TestFactoryBean/PersonFactoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mytestbeans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/TestFactoryBean/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/TestFactoryBean/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/HelloIndia.java" />
         <option value="$PROJECT_DIR$/src/main/resources/parentbeans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdk/AssignableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mytestbeans.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdk/FormatTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdk/SecurityManagerTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Spring-cache-anno.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/Main.java" />
       </list>
     </option>
   </component>
@@ -450,7 +289,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="parent_beans" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MybatisDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -758,6 +597,23 @@
               <item name="Maven: org.springframework:spring-context:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-context-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MybatisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MybatisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
               <item name="context" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -910,36 +766,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxf.mybatis.parent_beans.MainApp" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AssignableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gxf.mybatis.jdk.AssignableTest" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gxf.mybatis.parent_beans.*" />
+          <option name="PATTERN" value="com.gxf.mybatis.jdk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MapperScannerConfigurerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxf.mybatis.util.MapperScannerConfigurerTest" />
+    <configuration name="FormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gxf.mybatis.jdk.FormatTest" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gxf.mybatis.util.*" />
+          <option name="PATTERN" value="com.gxf.mybatis.jdk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NullUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxf.mybatis.util.NullUtil" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gxf.mybatis.spring_cache.Main" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gxf.mybatis.util.*" />
+          <option name="PATTERN" value="com.gxf.mybatis.spring_cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SecurityManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gxf.mybatis.jdk.SecurityManagerTest" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gxf.mybatis.jdk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -951,17 +818,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gxf.mybatis.aware.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxf.mybatis.test_factory_bean.Test" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gxf.mybatis.test_factory_bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1008,19 +864,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MapperScannerConfigurerTest" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.NullUtil" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.AssignableTest" />
+      <item itemvalue="Application.FormatTest" />
+      <item itemvalue="Application.SecurityManagerTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.NullUtil" />
-        <item itemvalue="Application.MapperScannerConfigurerTest" />
+        <item itemvalue="Application.SecurityManagerTest" />
+        <item itemvalue="Application.FormatTest" />
+        <item itemvalue="Application.AssignableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1050,12 +906,12 @@
       <workItem from="1544089259807" duration="8852000" />
       <workItem from="1544162815927" duration="17311000" />
       <workItem from="1544267982687" duration="11029000" />
-      <workItem from="1544359686570" duration="5450000" />
+      <workItem from="1544359686570" duration="24942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117929000" />
+    <option name="totallyTimeSpent" value="137421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-254" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -1063,17 +919,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3228106" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32077393" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.32917705" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.22818312" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.33503056" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.38594705" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18051118" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3253461" />
       <window_info anchor="bottom" id="SonarLint" order="14" sideWeight="0.49928468" weight="0.32917705" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -1081,7 +937,7 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.43017456" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.42973524" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1102,7 +958,7 @@
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.33541146" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.38653368" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297568" />
       <window_info id="UI Designer" order="1" />
@@ -1112,7 +968,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.32917705" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32294264" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32077393" />
       <window_info anchor="bottom" id="SonarLint" order="14" sideWeight="0.49928468" weight="0.32917705" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -1120,7 +976,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.22818312" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18097281" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.32546496" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -1173,16 +1029,16 @@
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java</url>
-          <line>520</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/Main.java</url>
+          <line>17</line>
           <properties />
-          <option name="timeStamp" value="84" />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="89" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1230,287 +1086,227 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/core/AliasRegistry.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/parsing/ParseState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/parsing/ReaderContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="198" column="5" lean-forward="true" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.0.4.RELEASE/spring-tx-3.0.4.RELEASE.jar!/org/springframework/jca/context/ResourceAdapterApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/ConfigurableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="175" column="19" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
+        <state relative-caret-position="169">
+          <caret line="2453" column="21" selection-start-line="2453" selection-start-column="21" selection-end-line="2453" selection-end-column="21" />
           <folding>
-            <element signature="e#7029#7030#0" expanded="true" />
-            <element signature="e#7071#7072#0" expanded="true" />
+            <element signature="e#101735#101736#0" expanded="true" />
+            <element signature="e#101781#101782#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdk/FormatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/aware/HelloBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/ioc/MyTestBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/test_factory_bean/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="45" lean-forward="true" selection-start-line="2" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/test_factory_bean/PersonFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/core/convert/TypeDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/core/ResolvableType.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/core/convert/ConversionService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/SmartFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="442">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="127" column="28" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="32" />
-          <folding>
-            <element signature="e#2363#2364#0" expanded="true" />
-            <element signature="e#2383#2384#0" expanded="true" />
-            <element signature="e#5505#5506#0" expanded="true" />
-            <element signature="e#5523#5524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="186" column="27" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="27" />
-          <folding>
-            <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4069#4070#0" expanded="true" />
-            <element signature="e#4895#4896#0" expanded="true" />
-            <element signature="e#4928#4929#0" expanded="true" />
-            <element signature="e#5427#5428#0" expanded="true" />
-            <element signature="e#5461#5462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="506" column="34" selection-start-line="506" selection-start-column="34" selection-end-line="506" selection-end-column="34" />
-          <folding>
-            <element signature="e#5314#5315#0" expanded="true" />
-            <element signature="e#5336#5337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionDocumentReader.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/AbstractNestablePropertyAccessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/BeanWrapperImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="177" column="27" lean-forward="true" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="1365" column="22" lean-forward="true" selection-start-line="1365" selection-start-column="22" selection-end-line="1365" selection-end-column="22" />
+        <state relative-caret-position="243">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
           <folding>
-            <element signature="e#9275#9276#0" expanded="true" />
-            <element signature="e#9326#9327#0" expanded="true" />
-            <element signature="e#48025#48026#0" expanded="true" />
-            <element signature="e#48068#48069#0" expanded="true" />
-            <element signature="e#51762#51763#0" expanded="true" />
-            <element signature="e#51798#51799#0" expanded="true" />
-            <element signature="e#52969#52970#0" expanded="true" />
-            <element signature="e#53024#53025#0" expanded="true" />
+            <element signature="e#3598#3599#0" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/NamespaceHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/BeanWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="578">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/NamespaceHandlerSupport.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="73" column="38" lean-forward="true" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+        <state relative-caret-position="289">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/jdk/SecurityManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/AbstractBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="138" column="48" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/test_factory_bean/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="332" column="33" selection-start-line="332" selection-start-column="18" selection-end-line="332" selection-end-column="33" />
+          <folding>
+            <element signature="e#11566#11567#0" expanded="true" />
+            <element signature="e#11597#11598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="115" column="29" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/GenericDeclaration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/RootBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+          <folding>
+            <element signature="e#8658#8659#0" expanded="true" />
+            <element signature="e#8680#8681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="3454" column="36" selection-start-line="3454" selection-start-column="36" selection-end-line="3454" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="873" selection-start-line="873" selection-end-line="873" />
+          <folding>
+            <element signature="e#19902#19903#0" expanded="true" />
+            <element signature="e#19930#19931#0" expanded="true" />
+            <element signature="e#23107#23108#0" expanded="true" />
+            <element signature="e#23142#23143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/MethodOverrides.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/AnnotatedElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="237" column="17" selection-start-line="237" selection-start-column="17" selection-end-line="237" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Executable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+          <folding>
+            <element signature="e#5718#5719#0" expanded="true" />
+            <element signature="e#5746#5747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/core/KotlinDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/InstantiationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="143" column="11" lean-forward="true" selection-start-line="143" selection-start-column="11" selection-end-line="143" selection-end-column="11" />
+        <state relative-caret-position="354">
+          <caret line="143" column="10" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
           <folding>
             <element signature="e#2860#2861#0" expanded="true" />
             <element signature="e#2880#2881#0" expanded="true" />
@@ -1522,68 +1318,26 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
+        <state relative-caret-position="554">
           <caret line="159" column="7" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Array.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="3207" column="28" selection-start-line="3207" selection-start-column="28" selection-end-line="3207" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="177" column="34" lean-forward="true" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/RootBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="678" column="24" selection-start-line="678" selection-start-column="24" selection-end-line="678" selection-end-column="24" />
+        <state relative-caret-position="354">
+          <caret line="139" column="3" lean-forward="true" selection-start-line="139" selection-start-column="3" selection-end-line="139" selection-end-column="3" />
           <folding>
-            <element signature="e#14191#14192#0" expanded="true" />
-            <element signature="e#14234#14235#0" expanded="true" />
+            <element signature="e#7029#7030#0" expanded="true" />
+            <element signature="e#7071#7072#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/lang/Nullable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1237" column="49" selection-start-line="1237" selection-start-column="49" selection-end-line="1237" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="868" column="28" selection-start-line="868" selection-start-column="28" selection-end-line="868" selection-end-column="28" />
+        <state relative-caret-position="269">
+          <caret line="1106" column="32" selection-start-line="1106" selection-start-column="32" selection-end-line="1106" selection-end-column="32" />
           <folding>
             <element signature="e#10497#10498#0" expanded="true" />
             <element signature="e#10518#10519#0" expanded="true" />
@@ -1603,10 +1357,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/NamedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/NamedBeanHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/core/SimpleAliasRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+          <folding>
+            <element signature="e#3774#3775#0" expanded="true" />
+            <element signature="e#3819#3820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE-sources.jar!/org/springframework/core/ResolvableType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="488" column="21" selection-start-line="488" selection-start-column="21" selection-end-line="488" selection-end-column="21" />
+          <folding>
+            <element signature="e#15950#15951#0" expanded="true" />
+            <element signature="e#15990#15991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="486" column="48" lean-forward="true" selection-start-line="486" selection-start-column="48" selection-end-line="486" selection-end-column="48" />
+          <folding>
+            <element signature="e#28378#28379#0" expanded="true" />
+            <element signature="e#28414#28415#0" expanded="true" />
+            <element signature="e#28898#28899#0" expanded="true" />
+            <element signature="e#28934#28935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="405" lean-forward="true" selection-start-line="405" selection-end-line="405" />
+          <folding>
+            <element signature="e#14191#14192#0" expanded="true" />
+            <element signature="e#14234#14235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="1220" column="60" selection-start-line="1220" selection-start-column="60" selection-end-line="1220" selection-end-column="60" />
+          <folding>
+            <element signature="e#8538#8539#0" expanded="true" />
+            <element signature="e#8578#8579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/ioc/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="527">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#365#366#0" expanded="true" />
@@ -1615,75 +1468,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/cache/TestSessionCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/HelloIndia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mytestbeans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/parent_beans/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/parentbeans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="YarmPluginDependencyUpdater" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-cache-anno.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/cache/annotation/Cacheable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/cache/annotation/CacheEvict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1391">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/mybatis/spring_cache/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

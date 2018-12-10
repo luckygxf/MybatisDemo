@@ -1,7 +1,7 @@
 package com.gxf.mybatis.parent_beans;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/10 11:01 AM
  **/
