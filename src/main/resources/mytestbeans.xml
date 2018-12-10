@@ -4,12 +4,24 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-    <!--<bean id="myTestBean" class="com.gxf.mybatis.ioc.MyTestBean">-->
-    <!--</bean>-->
+    <bean id="myTestBean" class="com.gxf.mybatis.ioc.MyTestBean" lazy-init="true">
+    </bean>
 
-    <bean id="propertyGetterListener" class="com.gxf.mybatis.aware.PropertyGettedListener"/>
+    <!--<bean id="propertyGetterListener" class="com.gxf.mybatis.aware.PropertyGettedListener"/>-->
 
     <bean id="helloBean" class="com.gxf.mybatis.aware.HelloBean">
         <property name="helloWord"><value>Hello!Justin!</value></property>
     </bean>
+    <!--<bean id="a" class="com.gxf.mybatis.circle_bean.A">-->
+        <!--<constructor-arg ref="b" index="0"/>-->
+    <!--</bean>-->
+    <!--<bean id="b" class="com.gxf.mybatis.circle_bean.B">-->
+        <!--<constructor-arg ref="a" index="0"/>-->
+    <!--</bean>-->
+    <bean id="person" class="com.gxf.mybatis.TestFactoryBean.PersonFactoryBean">
+        <property name="personInfo">
+            <value>guanxianseng,28,chengdu</value>
+        </property>
+    </bean>
+
 </beans>

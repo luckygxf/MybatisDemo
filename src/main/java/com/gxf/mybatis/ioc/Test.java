@@ -12,12 +12,12 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 
   public static void main(String[] args) {
-//    testIoc1();
-    testAware();
+    testIoc1();
   }
 
   private static void testIoc1(){
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("mytestbeans.xml");
+    System.out.println("start spring context");
     MyTestBean myTestBean = applicationContext.getBean(MyTestBean.class);
     System.out.println(myTestBean);
   }

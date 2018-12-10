@@ -15,6 +15,7 @@ public class MyTestBean implements InitializingBean {
     System.out.println("static block testStr: ");
   }
 
+
   @PostConstruct
   private void postConstructMethod(){
     System.out.println("PostConstructMethod : " + testStr);
