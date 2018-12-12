@@ -12,12 +12,6 @@
     <bean id="helloBean" class="com.gxf.mybatis.aware.HelloBean">
         <property name="helloWord"><value>Hello!Justin!</value></property>
     </bean>
-    <!--<bean id="a" class="com.gxf.mybatis.circle_bean.A">-->
-        <!--<constructor-arg ref="b" index="0"/>-->
-    <!--</bean>-->
-    <!--<bean id="b" class="com.gxf.mybatis.circle_bean.B">-->
-        <!--<constructor-arg ref="a" index="0"/>-->
-    <!--</bean>-->
     <bean id="person" class="com.gxf.mybatis.test_factory_bean.PersonFactoryBean">
         <property name="personInfo">
             <value>guanxianseng,28,chengdu</value>

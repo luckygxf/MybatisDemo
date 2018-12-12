@@ -10,3 +10,4 @@
 6. 父子bean demo  
       概念类似java继承，与java继承没有关系   
 7. spring cache demo  
+8. 属性编辑器demo  
