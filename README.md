@@ -12,3 +12,4 @@
 7. spring cache demo  
 8. 属性编辑器demo  
 9. PropertyDescriptor demo   
+10. 使用注解注入bean   
