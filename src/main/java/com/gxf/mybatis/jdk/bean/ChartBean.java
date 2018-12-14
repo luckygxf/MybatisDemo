@@ -5,7 +5,7 @@ import static javax.swing.SwingConstants.CENTER;
 import javax.swing.JPanel;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/10 11:39 PM
  **/

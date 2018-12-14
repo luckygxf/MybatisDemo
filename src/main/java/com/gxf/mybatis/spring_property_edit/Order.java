@@ -3,7 +3,7 @@ package com.gxf.mybatis.spring_property_edit;
 import java.util.Date;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/11 10:23 AM
  **/

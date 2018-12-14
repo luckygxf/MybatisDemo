@@ -1,7 +1,7 @@
 package com.gxf.mybatis.jdk;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/10 9:08 PM
  **/
