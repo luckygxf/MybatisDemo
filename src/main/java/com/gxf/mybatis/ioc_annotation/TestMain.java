@@ -15,5 +15,8 @@ public class TestMain {
     TestBean tb = (TestBean) context.getBean("testBean");
     tb.sayHello();
     System.out.println(tb);
+
+    TestConfiguration testConfiguration = context.getBean(TestConfiguration.class);
+    System.out.println("testConfiguration: " + testConfiguration);
   }
 }

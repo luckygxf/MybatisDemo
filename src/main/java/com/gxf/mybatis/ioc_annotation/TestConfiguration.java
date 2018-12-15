@@ -13,7 +13,10 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 @ComponentScan(basePackages = "com.gxf.mybatis.ioc_annotation")
 public class TestConfiguration {
+//  String name;
+
   public TestConfiguration(){
+//    name = "spring ioc";
     System.out.println("spring容器启动初始化。。。");
   }
 
@@ -23,5 +26,13 @@ public class TestConfiguration {
 //  @Scope("prototype")
 //  public TestBean testBean() {
 //    return new TestBean();
+//  }
+
+
+//  @Override
+//  public String toString() {
+//    return "TestConfiguration{" +
+//        "name='" + name + '\'' +
+//        '}';
 //  }
 }

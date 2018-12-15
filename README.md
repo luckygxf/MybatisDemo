@@ -13,3 +13,4 @@
 8. 属性编辑器demo  
 9. PropertyDescriptor demo   
 10. 使用注解注入bean   
+11. 添加depends-on demo  
