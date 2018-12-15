@@ -1,6 +1,7 @@
 package com.gxf.mybatis.ioc;
 
 import com.gxf.mybatis.aware.HelloBean;
+import com.gxf.mybatis.ioc_annotation.PersonBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -17,6 +18,9 @@ public class Test {
 
   private static void testIoc1(){
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("mytestbeans.xml");
+    PersonBean personBean = (PersonBean) applicationContext.getBean(PersonBean.class);
+    System.out.println(personBean);
+
     System.out.println("start spring context");
     MyTestBean myTestBean = applicationContext.getBean(MyTestBean.class);
     System.out.println(myTestBean);

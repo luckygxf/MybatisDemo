@@ -2,6 +2,7 @@ package com.gxf.mybatis.ioc_annotation;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
@@ -22,11 +23,12 @@ public class TestConfiguration {
 
   //@Bean注解注册bean,同时可以指定初始化和销毁方法
   //@Bean(name="testNean",initMethod="start",destroyMethod="cleanUp")
-//  @Bean
+  @Bean
+  @Conditional(MagicExistCondition.class)
 //  @Scope("prototype")
-//  public TestBean testBean() {
-//    return new TestBean();
-//  }
+  public TestBean testBean() {
+    return new TestBean();
+  }
 
 
 //  @Override

@@ -11,12 +11,16 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class TestMain {
   public static void main(String[] args) {
     ApplicationContext context = new AnnotationConfigApplicationContext(TestConfiguration.class);
-    //获取bean
-    TestBean tb = (TestBean) context.getBean("testBean");
-    tb.sayHello();
-    System.out.println(tb);
+    TestBean personBean = context.getBean(TestBean.class);
+    System.out.println(personBean);
 
-    TestConfiguration testConfiguration = context.getBean(TestConfiguration.class);
-    System.out.println("testConfiguration: " + testConfiguration);
+//    ApplicationContext context = new AnnotationConfigApplicationContext(TestConfiguration.class);
+//    //获取bean
+//    TestBean tb = (TestBean) context.getBean("testBean");
+//    tb.sayHello();
+//    System.out.println(tb);
+//
+//    TestConfiguration testConfiguration = context.getBean(TestConfiguration.class);
+//    System.out.println("testConfiguration: " + testConfiguration);
   }
 }

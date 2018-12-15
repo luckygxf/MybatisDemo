@@ -7,11 +7,16 @@ import org.springframework.stereotype.Component;
  * @Description:
  * @Date: Created in : 2018/12/14 9:01 PM
  **/
-@Component
 public class TestBean {
   private String username;
   private String password;
   private String url;
+
+  public TestBean() {
+    username = "guanxianseng";
+    password = "pwd";
+    url = "www.spring.com";
+  }
 
   public void sayHello(){
     System.out.println("TestBean sayHello...");
