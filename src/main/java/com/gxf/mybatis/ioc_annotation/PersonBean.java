@@ -1,13 +1,15 @@
 package com.gxf.mybatis.ioc_annotation;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 /**
  * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/15 4:09 PM
  **/
-@Component
+//@Component
+  @Service
 public class PersonBean {
   private String name;
   private int age;

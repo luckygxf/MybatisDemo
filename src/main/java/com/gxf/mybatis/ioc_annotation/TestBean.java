@@ -12,6 +12,12 @@ public class TestBean {
   private String password;
   private String url;
 
+  public TestBean(String username) {
+    username = "guanxianseng1";
+    password = "pwd";
+    url = "www.spring.com";
+  }
+
   public TestBean() {
     username = "guanxianseng";
     password = "pwd";

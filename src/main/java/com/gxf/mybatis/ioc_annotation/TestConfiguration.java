@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Scope;
  * @Description:
  * @Date: Created in : 2018/12/14 8:59 PM
  **/
-@Configuration
+//@Configuration
 @ComponentScan(basePackages = "com.gxf.mybatis.ioc_annotation")
 public class TestConfiguration {
 //  String name;
@@ -24,10 +24,10 @@ public class TestConfiguration {
   //@Bean注解注册bean,同时可以指定初始化和销毁方法
   //@Bean(name="testNean",initMethod="start",destroyMethod="cleanUp")
   @Bean
-  @Conditional(MagicExistCondition.class)
+//  @Conditional(MagicExistCondition.class)
 //  @Scope("prototype")
   public TestBean testBean() {
-    return new TestBean();
+    return new TestBean("guaxiangfie");
   }
 
 
