@@ -15,9 +15,9 @@ public class TestMain {
     System.out.println("personBean: " + personBean);
 
     //获取bean
-    TestBean tb =  context.getBean(TestBean.class);
-    tb.sayHello();
-    System.out.println(tb);
+    TestBean testBean =  context.getBean(TestBean.class);
+    testBean.sayHello();
+    System.out.println("testBean: " + testBean);
 //
 //    TestConfiguration testConfiguration = context.getBean(TestConfiguration.class);
 //    System.out.println("testConfiguration: " + testConfiguration);

@@ -13,7 +13,7 @@ public class TestBean {
   private String url;
 
   public TestBean(String username) {
-    username = "guanxianseng1";
+    this.username = username;
     password = "pwd";
     url = "www.spring.com";
   }
