@@ -47,7 +47,7 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.7</version>
         </dependency>
-        <!-- mybatis generator -->
+        <!-- ioc generator -->
         <dependency>
             <groupId>org.mybatis.generator</groupId>
             <artifactId>mybatis-generator-core</artifactId>
@@ -60,17 +60,47 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <!--spring mvc-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.1.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.1.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.1.3.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 
     <build>
         <plugins>
+          <plugin>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-maven-plugin</artifactId>
+            <version>9.4.2.v20170220</version>
+            <configuration>
+              <httpConnector>
+                <port>8080</port>
+              </httpConnector>
+              <webApp>
+                <contextPath>/</contextPath>
+              </webApp>
+            </configuration>
+          </plugin>
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
                 <version>1.3.2</version>
                 <configuration>
-                    <configurationFile>${basedir}/src/main/resources/generatorConfig.xml</configurationFile>
+                    <configurationFile>src/main/resources/spring_ioc/generatorConfig.xml</configurationFile>
                     <overwrite>false</overwrite>
                     <verbose>true</verbose>
                 </configuration>
