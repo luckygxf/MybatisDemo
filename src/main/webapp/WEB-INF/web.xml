@@ -8,9 +8,7 @@
 
   <servlet>
     <servlet-name>HelloWeb</servlet-name>
-    <servlet-class>
-      org.springframework.web.servlet.DispatcherServlet
-    </servlet-class>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
       <param-value>classpath:spring_mvc/spring_mvc.xml</param-value>

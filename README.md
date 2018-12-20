@@ -1,4 +1,5 @@
 # mybatis demo
+## ioc
 1. mybatis demo
 2. spring集成  
     2.1 datasource使用了c3p0, 数据库连接池   
@@ -12,5 +13,7 @@
 7. spring cache demo  
 8. 属性编辑器demo  
 9. PropertyDescriptor demo   
-10. 使用注解注入bean   
+10. 使用注解注入bean     
 11. 添加depends-on demo  
+## mvc
+1. spring mvc demo  
