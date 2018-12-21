@@ -17,3 +17,6 @@
 11. 添加depends-on demo  
 ## mvc
 1. spring mvc demo  
+2. add servlet demo  
+  2.1  servlet forward  
+  2.2  servlet get parameter from page   
