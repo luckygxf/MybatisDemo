@@ -59,7 +59,7 @@ public class PersonTableOps {
     }
 
     /**
-     * test ioc select method
+     * spring ioc select method
      * */
     private static void testSelectOnes(){
         //        selectOne1();

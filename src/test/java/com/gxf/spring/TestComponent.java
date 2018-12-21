@@ -1,3 +1,5 @@
+package com.gxf.spring;
+
 import org.junit.Test;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
