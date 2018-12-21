@@ -14,4 +14,6 @@
     <property name="suffix" value=".jsp" />
   </bean>
 
+  <!--<bean name="/testBeanController" class="com.gxf.mvc.controller.TestBeanController"/>-->
+
 </beans>

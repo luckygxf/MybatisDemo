@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
-@RequestMapping("/hello")
+@RequestMapping({"/hello"})
 public class HelloController{
 
   @RequestMapping(method = RequestMethod.GET)
