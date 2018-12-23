@@ -5,7 +5,7 @@ import org.springframework.beans.propertyeditors.PropertiesEditor;
 import org.springframework.util.StringUtils;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/21 9:25 PM
  **/

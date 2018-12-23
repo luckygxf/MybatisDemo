@@ -22,11 +22,12 @@ import org.springframework.web.servlet.View;
 public class HelloController {
   private static Logger logger = LoggerFactory.getLogger(HelloController.class);
 
-//  @RequestMapping(method = RequestMethod.GET)
-//  public String printHello(ModelMap model) {
-//    model.addAttribute("message", "Hello Spring MVC Framework!");
-//    return "hello";
-//  }
+  @RequestMapping(method = RequestMethod.GET)
+  public String printHello(ModelMap model, String name) {
+    logger.info("name :{}", name);
+    model.addAttribute("message", "Hello Spring MVC Framework!");
+    return "hello";
+  }
 
 //  @RequestMapping(method = RequestMethod.GET)
 //  public ModelAndView printHello(ModelMap modelMap, HttpServletRequest request, String name) {
@@ -39,15 +40,14 @@ public class HelloController {
 //    return modelAndView;
 //  }
 
-  @RequestMapping(method = RequestMethod.GET)
-  public View printHello(ModelMap modelMap, HttpServletRequest request, String name) {
-//    name = request.getParameter("name");
-    logger.info("name: {}", name);
-    logger.info("modelMap: {}", modelMap);
-    modelMap.put("message", "Hello Spring MVC Framework!");
-    ModelAndView modelAndView = new ModelAndView();
-    modelAndView.getModelMap().addAttribute("message", "Hello Spring MVC Framework!");
-    modelAndView.setViewName("hello");
-    return modelAndView.getView();
-  }
+//  @RequestMapping(method = RequestMethod.GET)
+//  public View printHello(ModelMap modelMap, HttpServletRequest request, String name) {
+//    logger.info("name: {}", name);
+//    logger.info("modelMap: {}", modelMap);
+//    modelMap.put("message", "Hello Spring MVC Framework!");
+//    ModelAndView modelAndView = new ModelAndView();
+//    modelAndView.getModelMap().addAttribute("message", "Hello Spring MVC Framework!");
+//    modelAndView.setViewName("hello");
+//    return modelAndView.getView();
+//  }
 }
