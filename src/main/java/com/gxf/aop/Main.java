@@ -19,7 +19,9 @@ public class Main {
 //    TestAspect testAspect = (TestAspect) applicationContext.getBean("TestAspect");
 
     Teacher teacher = applicationContext.getBean(TeacherImpl.class);
-    teacher.teach();
+//    teacher.teach();
+
+    teacher.teach("Math");
 
   }
 }

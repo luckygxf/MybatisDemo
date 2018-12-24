@@ -13,16 +13,20 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Aspect
 public class TestAnnotationAspect {
+  private static Logger logger = LoggerFactory.getLogger(TestAnnotationAspect.class);
 
-  @Pointcut("execution(* com.gxf.aop.*.*(..))")
+  @Pointcut("execution(* com.gxf.aop.TeacherImpl.teach(..))")
   private void pointCutMethod() {
+    logger.info("TestAnnotationAspect: {}", this);
   }
 
   //声明前置通知
-  @Before("pointCutMethod()")
+  @Before("execution(* com.gxf.aop.TeacherImpl.teach(..))")
   public void doBefore() {
     System.out.println("前置通知");
   }

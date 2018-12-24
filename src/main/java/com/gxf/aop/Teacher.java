@@ -7,4 +7,6 @@ package com.gxf.aop;
  **/
 public interface Teacher {
   public void teach();
+
+  public void teach(String objectName);
 }

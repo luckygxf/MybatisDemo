@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+  xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:p="http://www.springframework.org/schema/p"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+>
+  <!-- 需要被拦截的目标对象 -->
+  <bean id="dao" class="com.gxf.aop.cache.DaoImpl"></bean>
+
+  <!-- 方法拦截器和环绕增强-->
+  <bean id="cacheInterceptor" class="com.gxf.aop.cache.CacheQueryResult"></bean>
+
+  <aop:config proxy-target-class="true">
+    <aop:pointcut id="cachePointcut" expression="execution(public * com.gxf.aop.cache.DaoImpl.*(..))" />
+    <aop:aspect id="cacheAspect" ref="cacheInterceptor">
+      <aop:around method="around" pointcut-ref="cachePointcut" />
+    </aop:aspect>
+  </aop:config>
+
+  <bean id="cacheMethodInterrupter" class="com.gxf.aop.cache.CacheMethodInterceptor" />
+  <aop:config proxy-target-class="true">
+    <aop:pointcut id="servicePointcut" expression="execution(public * com.gxf.aop.cache.DaoImpl.*(..))" />
+    <aop:advisor advice-ref="cacheMethodInterrupter" pointcut-ref="servicePointcut" />
+  </aop:config>
+
+
+</beans>
