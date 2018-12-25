@@ -12,23 +12,21 @@
   <!-- 配置需要被Spring管理的Bean（创建，创建后放在了Spring IOC容器里面）-->
 
   <!-- 表演者 -->
-  <bean id="TeacherImpl" class="com.gxf.aop.TeacherImpl"/>
+  <bean id="teacherImpl" class="com.gxf.aop.TeacherImpl"/>
 
   <!-- 观众 -->
-  <bean id="Student" class="com.gxf.aop.Student"></bean>
+  <bean id="student" class="com.gxf.aop.Student"></bean>
 
   <!-- 为接口类设置切点 -->
   <aop:config proxy-target-class="true">
-    <aop:aspect ref="Student">
-      <aop:pointcut id="teacherTeach" expression="execution(* com.gxf.aop.TeacherImpl.teach(..))" />
+    <aop:aspect ref="student">
+      <aop:pointcut id="teacherTeach" expression="execution(* com.gxf.aop.TeacherImpl.teach(..)) and args(objectName)" />
       <!-- 之前 -->
-      <aop:before pointcut-ref="teacherTeach" method="seats"/>
+      <aop:before pointcut-ref="teacherTeach" method="seats" arg-names="objectName"/>
       <!-- 之前 -->
       <aop:before pointcut="execution(* com.gxf.aop.TeacherImpl.teach(..))" method="sayhello"/>
-
       <!-- 之后 -->
       <aop:after-returning pointcut="execution(* com.gxf.aop.TeacherImpl.teach(..))" method="ask"/>
-
       <!-- 之后 -->
       <aop:after-throwing pointcut="execution(* com.gxf.aop.TeacherImpl.teach(..))" method="endclass"/>
     </aop:aspect>

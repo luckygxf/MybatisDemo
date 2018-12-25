@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+  xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:p="http://www.springframework.org/schema/p"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+>
+  <aop:config>
+    <aop:pointcut expression="bean(userService)" id="userServicePointcut"/>
+    <aop:advisor advice-ref="logBeforeAdvice" order="1" pointcut-ref="userServicePointcut"/>
+  </aop:config>
+
+  <bean id="logBeforeAdvice" class="com.gxf.aop.advisor.LogBeforeAdvice" />
+  <bean id="userService" class="com.gxf.aop.advisor.UserService"/>
+</beans>

@@ -1,7 +1,7 @@
 package com.gxf.aop.cache;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/24 11:47 PM
  **/
