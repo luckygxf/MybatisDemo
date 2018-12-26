@@ -1,4 +1,4 @@
-package com.gxf.aop.cglib;
+package com.gxf.aop.cglib.demo1;
 
 import org.springframework.cglib.proxy.Enhancer;
 
@@ -10,6 +10,19 @@ import org.springframework.cglib.proxy.Enhancer;
 public class CglibTest {
 
   public static void main(String[] args) {
+    test1();
+  }
+
+  private static void testCglibProxyFactory(){
+    Dao dao = new Dao();
+    CgLibProxyFactory cglibProxyFactory = new CgLibProxyFactory();
+    dao = cglibProxyFactory.getProxy(dao);
+    dao.select();
+    System.out.println("===============================");
+    dao.update();
+  }
+
+  private static void test1(){
     DaoProxy daoProxy = new DaoProxy();
 
     Enhancer enhancer = new Enhancer();

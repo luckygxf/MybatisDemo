@@ -1,4 +1,4 @@
-package com.gxf.aop.cglib;
+package com.gxf.aop.cglib.demo1;
 
 /**
  * @Author: <guanxianseng@163.com>

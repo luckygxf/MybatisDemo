@@ -1,4 +1,4 @@
-package com.gxf.aop.cglib;
+package com.gxf.aop.cglib.demo1;
 
 import java.lang.reflect.Method;
 import org.springframework.cglib.proxy.MethodInterceptor;

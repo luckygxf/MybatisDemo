@@ -22,7 +22,7 @@ public class Main {
 //    bService.fooB();
 //    TestAspect testAspect = (TestAspect) applicationContext.getBean("TestAspect");
 
-    Teacher teacher = applicationContext.getBean(TeacherImpl.class);
+    Teacher teacher = (Teacher) applicationContext.getBean("teacherImpl");
     logger.info("teacher:{} teacher instanceof  Teacher:{}", teacher, teacher instanceof  Teacher);
 //    teacher.teach();
 
