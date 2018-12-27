@@ -26,3 +26,4 @@
 2. add advisor demo  
 3. add cglib demo  
 4. add aop annotation demo  
+5. add bean p & c namespace demo  

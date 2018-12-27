@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:p="http://www.springframework.org/schema/p"
+  xmlns:c="http://www.springframework.org/schema/c"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="world" class="com.gxf.aop.namespace_p.World"/>
+
+  <!-- 通过set方法注入的传统的bean定义 -->
+  <bean id="hello1" class="com.gxf.aop.namespace_p.Hello">
+    <property name="p1" value="v1"/>
+    <property name="p2" value="v2"/>
+    <property name="world" ref="world"/>
+  </bean>
+
+  <!-- 通过set方法注入的使用p命名空间的bean定义 -->
+  <bean id="hello2" class="com.gxf.aop.namespace_p.Hello" p:p1="v1" p:p2="v2" p:world-ref="world"/>
+
+  <bean id="hello3" class="com.gxf.aop.namespace_p.Hello">
+    <constructor-arg index="0" value="arg1"/>
+    <constructor-arg index="1" value="arg2"/>
+    <constructor-arg index="2" ref="world"/>
+  </bean>
+
+  <bean id="hello4" class="com.gxf.aop.namespace_p.Hello" c:_0="c_arg1" c:_1="2" c:_2-ref="world"/>
+
+</beans>

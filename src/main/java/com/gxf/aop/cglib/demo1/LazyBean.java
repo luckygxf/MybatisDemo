@@ -3,7 +3,7 @@ package com.gxf.aop.cglib.demo1;
 import org.springframework.cglib.proxy.Enhancer;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/26 11:20 PM
  **/

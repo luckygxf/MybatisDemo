@@ -9,7 +9,7 @@ import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description:
  * @Date: Created in : 2018/12/26 11:29 PM
  **/

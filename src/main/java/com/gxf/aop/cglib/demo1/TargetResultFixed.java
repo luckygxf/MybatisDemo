@@ -3,7 +3,7 @@ package com.gxf.aop.cglib.demo1;
 import org.springframework.cglib.proxy.FixedValue;
 
 /**
- * @Author: <guanxiangfei@meituan.com>
+ * @Author: <guanxianseng@163.com>
  * @Description: 表示锁定方法返回值，无论被代理类的方法返回什么值，回调方法都返回固定值。
  * @Date: Created in : 2018/12/26 9:08 PM
  **/
