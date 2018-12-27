@@ -25,3 +25,4 @@
 1. aop demo  
 2. add advisor demo  
 3. add cglib demo  
+4. add aop annotation demo  

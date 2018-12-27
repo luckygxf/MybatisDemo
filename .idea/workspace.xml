@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7723348-ddd4-4bbf-a6f0-974bc4b9f832" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/CgLibProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/ConcreteClassDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/ConcreteClassLazyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/LazyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/PropertyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/TargetInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/TargetMethodCallbackFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/TargetObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/TargetResultFixed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/TestCglib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/TestInterfaceMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/AopAnnotationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/AspectJTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring_aop/spring_annotation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gxf/aop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/CglibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/CglibTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/DaoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/DaoProxy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,12 +31,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/TestBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspectJTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/AspectJTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="82" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring_advisor.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring_aop/spring_advisor.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="spring_annotation.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring_aop/spring_annotation.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AopAnnotationMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/AopAnnotationMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="YarmPluginDependencyAnalyzer" />
+          <provider editor-type-id="YarmPluginDependencyUpdater" />
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="442">
-                <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <first_editor relative-caret-position="398">
+                <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -112,10 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/BServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/AService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/TeacherImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/TestAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/TestAnnotationAspect.java" />
@@ -162,6 +224,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/CgLibProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/CgLibProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/cglib/demo1/TestInterfaceMaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/TestBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/AspectJTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring_aop/spring_annotation.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/AopAnnotationMain.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -215,7 +281,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="131" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -276,7 +342,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gxf" type="462c0819:PsiDirectoryNode" />
               <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+              <item name="aop_annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MybatisDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -455,6 +521,16 @@
               <item name="aop" type="462c0819:PsiDirectoryNode" />
               <item name="aspectj" type="462c0819:PsiDirectoryNode" />
               <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MybatisDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="aspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="autoproxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MybatisDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -642,7 +718,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="AbstractAutoProxyCreator&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;JoinPoint&#9;PSI&#9;JAVA://org.aspectj.lang.JoinPoint&#10;JdkDynamicAopProxy&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java&#10;AbstractAutowireCapableBeanFactory&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java&#10;AspectJAwareAdvisorAutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator&#10;AutopRO&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;AutoProxy&#9;PSI&#9;JAVA://org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator&#10;Pointcut&#9;PSI&#9;JAVA://org.springframework.aop.Pointcut&#10;ProxyFactoryBean&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;AspectJPoin&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJPointcutAdvisor&#10;Advisor&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/Advisor.java&#10;MethodBeforeAdvice&#9;PSI&#9;JAVA://org.springframework.aop.MethodBeforeAdvice&#10;AspectJPoint&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/AspectJPointcutAdvisor.java&#10;pom&#9;FILE&#9;file:///Users/gxf/IdeaProjects/demos/MybatisDemo/pom.xml&#10;AutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator&#10;RequestMappingHandlerMapping&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.java&#10;BeanNameUrlHandlerMapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping&#10;Dispatcher&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.properties&#10;AbstractAppli&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java&#10;JstlView&#9;PSI&#9;JAVA://org.springframework.web.servlet.view.JstlView&#10;HandlerMapping&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerMapping.java&#10;HandlerCha&#9;PSI&#9;JAVA://javax.jws.HandlerChain&#10;Dispat&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java&#10;InternalResourceViewResolver&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.java&#10;RequestMappingHandlerAdapter&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&#10;SimpleControllerHandlerAdapter&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter&#10;HttpRequestHandlerAdapter&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter&#10;Requestd&#9;FILE&#9;jar:///Users/gxf/.m2/repository/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1-sources.jar!/javax/servlet/RequestDispatcher.java&#10;web.xml&#9;FILE&#9;file:///Users/gxf/IdeaProjects/demos/MybatisDemo/src/main/webapp/WEB-INF/web.xml&#10;HandlerMethod&#9;PSI&#9;JAVA://org.springframework.web.method.HandlerMethod&#10;Auto&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java&#10;ApplicationC&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;ContextLoaderListener&#9;PSI&#9;JAVA://org.springframework.web.context.ContextLoaderListener&#10;RequestMappingInfo&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/RequestMappingInfo.java&#10;Xml&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/web/context/support/XmlWebApplicationContext.java&#10;web.xm&#9;FILE&#9;file:///Users/gxf/IdeaProjects/demos/MybatisDemo/src/main/webapp/WEB-INF/web.xml&#10;DefaultServletHttpRequestHandler&#9;PSI&#9;JAVA://org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler&#10;BeanDefinition&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/RootBeanDefinition.java&#10;TestCon&#9;FILE&#9;file:///Users/gxf/IdeaProjects/demos/MybatisDemo/src/main/java/com/gxf/mybatis/ioc_annotation/TestConfiguration.java&#10;ConfigurationClassPostProcessor&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java&#10;ComponentSc&#9;PSI&#9;JAVA://org.springframework.context.annotation.ComponentScan&#10;Service&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/stereotype/Service.java&#10;@Order&#9;PSI&#9;JAVA://org.springframework.core.annotation.Order&#10;BeanPostProcessor.java&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java&#10;@PropertySource&#9;PSI&#9;JAVA://org.springframework.context.annotation.PropertySource&#10;ClassPathScanningCandidateComponentProvider&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java&#10;@Service&#9;PSI&#9;JAVA://org.springframework.stereotype.Service&#10;ScopeMetadataResolver&#9;PSI&#9;JAVA://org.springframework.context.annotation.ScopeMetadataResolver&#10;DefaultNamespaceHandlerResolver&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultNamespaceHandlerResolver.java&#10;ApplicationContext.&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java" />
+    <property name="SearchEverywhereHistoryKey" value="Aspect&#9;PSI&#9;JAVA://org.aspectj.weaver.AjAttribute.Aspect&#10;PointCut&#9;PSI&#9;JAVA://org.springframework.aop.Pointcut&#10;AspectJAwareAdvisorAutoProxyCreator&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java&#10;AbstractAutoProxyCreator&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;JoinPoint&#9;PSI&#9;JAVA://org.aspectj.lang.JoinPoint&#10;JdkDynamicAopProxy&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java&#10;AbstractAutowireCapableBeanFactory&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java&#10;AutopRO&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;AutoProxy&#9;PSI&#9;JAVA://org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator&#10;Pointcut&#9;PSI&#9;JAVA://org.springframework.aop.Pointcut&#10;ProxyFactoryBean&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;AspectJPoin&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJPointcutAdvisor&#10;Advisor&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/Advisor.java&#10;MethodBeforeAdvice&#9;PSI&#9;JAVA://org.springframework.aop.MethodBeforeAdvice&#10;AspectJPoint&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/AspectJPointcutAdvisor.java&#10;pom&#9;FILE&#9;file:///Users/gxf/IdeaProjects/demos/MybatisDemo/pom.xml&#10;AutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator&#10;RequestMappingHandlerMapping&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.java&#10;BeanNameUrlHandlerMapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping&#10;Dispatcher&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.properties&#10;AbstractAppli&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java&#10;JstlView&#9;PSI&#9;JAVA://org.springframework.web.servlet.view.JstlView&#10;HandlerMapping&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerMapping.java&#10;HandlerCha&#9;PSI&#9;JAVA://javax.jws.HandlerChain&#10;Dispat&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java&#10;InternalResourceViewResolver&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.java&#10;RequestMappingHandlerAdapter&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&#10;SimpleControllerHandlerAdapter&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter&#10;HttpRequestHandlerAdapter&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter&#10;Requestd&#9;FILE&#9;jar:///Users/gxf/.m2/repository/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1-sources.jar!/javax/servlet/RequestDispatcher.java&#10;web.xml&#9;FILE&#9;file:///Users/gxf/IdeaProjects/demos/MybatisDemo/src/main/webapp/WEB-INF/web.xml&#10;HandlerMethod&#9;PSI&#9;JAVA://org.springframework.web.method.HandlerMethod&#10;Auto&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java&#10;ApplicationC&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;ContextLoaderListener&#9;PSI&#9;JAVA://org.springframework.web.context.ContextLoaderListener&#10;RequestMappingInfo&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/RequestMappingInfo.java&#10;Xml&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/web/context/support/XmlWebApplicationContext.java&#10;web.xm&#9;FILE&#9;file:///Users/gxf/IdeaProjects/demos/MybatisDemo/src/main/webapp/WEB-INF/web.xml&#10;DefaultServletHttpRequestHandler&#9;PSI&#9;JAVA://org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler&#10;BeanDefinition&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/RootBeanDefinition.java&#10;TestCon&#9;FILE&#9;file:///Users/gxf/IdeaProjects/demos/MybatisDemo/src/main/java/com/gxf/mybatis/ioc_annotation/TestConfiguration.java&#10;ConfigurationClassPostProcessor&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java&#10;ComponentSc&#9;PSI&#9;JAVA://org.springframework.context.annotation.ComponentScan&#10;Service&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/stereotype/Service.java&#10;@Order&#9;PSI&#9;JAVA://org.springframework.core.annotation.Order&#10;BeanPostProcessor.java&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java&#10;@PropertySource&#9;PSI&#9;JAVA://org.springframework.context.annotation.PropertySource&#10;ClassPathScanningCandidateComponentProvider&#9;FILE&#9;jar:///Users/gxf/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java&#10;@Service&#9;PSI&#9;JAVA://org.springframework.stereotype.Service&#10;ScopeMetadataResolver&#9;PSI&#9;JAVA://org.springframework.context.annotation.ScopeMetadataResolver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -654,22 +730,22 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/resources/spring_ioc" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gxf.mvc.interceptors" />
+      <recent name="com.gxf.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/spring_aop" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/webapp/jsp" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gxf.mvc.interceptors" />
-      <recent name="com.gxf.util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/resources/spring_ioc" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/gxf/mybatis/util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -684,7 +760,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestInterfaceMaker">
+  <component name="RunManager" selected="Application.AopAnnotationMain">
+    <configuration name="AopAnnotationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gxf.aop.aop_annotation.AopAnnotationMain" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gxf.aop.aop_annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CglibTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gxf.aop.cglib.demo1.CglibTest" />
       <module name="demo" />
@@ -692,17 +779,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gxf.aop.cglib.demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gxf.aop.advisor.Main" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gxf.aop.advisor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -784,17 +860,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CglibTest" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.TestCglib" />
       <item itemvalue="Application.TestInterfaceMaker" />
+      <item itemvalue="Application.AopAnnotationMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AopAnnotationMain" />
         <item itemvalue="Application.TestInterfaceMaker" />
         <item itemvalue="Application.TestCglib" />
         <item itemvalue="Application.CglibTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -847,7 +923,7 @@
       <workItem from="1545708409861" duration="11578000" />
       <workItem from="1545743747819" duration="16285000" />
       <workItem from="1545816863461" duration="9810000" />
-      <workItem from="1545837587555" duration="1140000" />
+      <workItem from="1545837587555" duration="2629000" />
     </task>
     <servers />
   </component>
@@ -860,7 +936,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395640000" />
+    <option name="totallyTimeSpent" value="397129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -874,11 +950,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49854228" weight="0.16380544" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.33541146" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.33541146" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.24678111" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24678111" />
       <window_info anchor="bottom" id="SonarLint" order="15" sideWeight="0.49928468" weight="0.32917705" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -906,7 +982,7 @@
       <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
       <window_info id="Designer" order="0" />
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.33541146" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.33541146" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
@@ -1014,129 +1090,13 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="159" column="8" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="314" selection-start-line="314" selection-end-line="314" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/BeanFactoryAdvisorRetrievalHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_aop/spring_aop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/AdvisedSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyProcessorSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="789" column="26" selection-start-line="789" selection-start-column="26" selection-end-line="789" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/DefaultAopProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyCreatorSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/objenesis/strategy/StdInstantiatorStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE-sources.jar!/org/springframework/cglib/core/AbstractClassGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="224" selection-start-line="224" selection-end-line="224" />
+          <folding>
+            <element signature="e#6827#6828#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,13 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="585" column="51" selection-start-line="585" selection-start-column="39" selection-end-line="585" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="303" column="30" selection-start-line="303" selection-start-column="15" selection-end-line="303" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1251,16 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1391,11 +1334,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#4639#4640#0" expanded="true" />
+            <element signature="e#4666#4667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyProcessorSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding>
+            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+          <folding>
+            <element signature="e#5057#5058#0" expanded="true" />
+            <element signature="e#5075#5076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="46" column="78" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/SmartInstantiationAwareBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="37" column="79" lean-forward="true" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="94" column="67" lean-forward="true" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
+          <folding>
+            <element signature="e#15432#15433#0" expanded="true" />
+            <element signature="e#15451#15452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactoryAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/aopalliance/aop/Advice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/Pointcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/org/aspectj/weaver/AjAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
+          <folding>
+            <element signature="e#19949#19950#0" expanded="true" />
+            <element signature="e#19978#19979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/Advisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_aop/spring_advisor.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_aop/spring_annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="82" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/AspectJTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gxf/aop/aop_annotation/AopAnnotationMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
+      <provider editor-type-id="YarmPluginDependencyUpdater" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <first_editor relative-caret-position="398">
+            <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
