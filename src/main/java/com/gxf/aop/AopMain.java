@@ -10,8 +10,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @Description:
  * @Date: Created in : 2018/12/23 2:50 PM
  **/
-public class Main {
-  private static Logger logger = LoggerFactory.getLogger(Main.class);
+public class AopMain {
+  private static Logger logger = LoggerFactory.getLogger(AopMain.class);
 
   public static void main(String[] args) {
     ApplicationContext applicationContext =
@@ -26,7 +26,7 @@ public class Main {
     logger.info("teacher:{} teacher instanceof  Teacher:{}", teacher, teacher instanceof  Teacher);
 //    teacher.teach();
 
-    teacher.teach("Math");
+    teacher.teach();
 
   }
 }
