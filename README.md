@@ -29,3 +29,5 @@
 5. add bean p & c namespace demo   
 ## jdbc  
 1. add jdbc demo  
+## kafka  
+1. add kafka demo   
