@@ -1,7 +1,9 @@
 package com.gxf.jdk;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -13,9 +15,19 @@ import java.util.stream.Stream;
 public class TestStream {
 
   public static void main(String[] args) {
-    testFinally();
+    testOOM();
   }
 
+
+  private static void testOOM() {
+    int size = 1024 * 1024;
+    byte[] bytes = new byte[size];
+    Map<Integer, byte[]> map = new HashMap<>();
+    for (Integer i = 0; i < Integer.MAX_VALUE; i++) {
+      map.put(i, bytes);
+      bytes = new byte[size];
+    }
+  }
 
   private static int returnCalculate(){
     System.out.println("in return calculate");

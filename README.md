@@ -31,3 +31,7 @@
 1. add jdbc demo  
 ## kafka  
 1. add kafka demo   
+## jmx  
+1. add jmx demo  
+## cache  
+1. 参考redis 过期时间设计一个cache  
